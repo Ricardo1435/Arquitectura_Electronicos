@@ -119,13 +119,13 @@
 <div class="container my-5 " id="contactanos">
     <h4> Contáctanos &nbsp;<i class="far fa-address-card"></i></h4>
     <hr color="gray">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.887480015556!2d-90.52993728567971!3d14.605485080873837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a1778a3e0dbf%3A0x13648787458baff2!2s10%20Calle%2C%20Cdad.%20de%20Guatemala!5e0!3m2!1ses!2sgt!4v1617116899288!5m2!1ses!2sgt" width="300" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3841.0331073785937!2d-88.58913308566764!3d15.696394053491806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f66d97040f0cad7%3A0x1df0d9ca830b1666!2sCentro%20Comercial%20Pradera%20Puerto%20Barrios!5e0!3m2!1ses!2sgt!4v1666540366295!5m2!1ses!2sgt" width="300" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     <p>
-        <i class="fas fa-phone-alt "> Tel: (502) 7645-8032</i> <br><br>
+        <i class="fas fa-phone-alt "> Tel: (502) 5514-3089</i> <br><br>
         <i class="far fa-envelope">   electronicos15@gmail.com</i> <br><br>
-        <i class="fa fa-clock-o">    8:00 AM - 5:00 PM</i> <br><br>
-        <i class="fas fa-home"> 10 Calle, Zona 7, Ciudad de Guatemala</i>
+        <i class="fa fa-clock-o">    10:00 AM - 6:00 PM</i> <br><br>
+        <i class="fas fa-home"> Centro Comercial Pradera Puerto Barrios, local #5 </i>
     </p>
     <ul class="list-unstyled list-inline list-social-icons">
         <li>
