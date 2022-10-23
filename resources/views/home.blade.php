@@ -139,39 +139,46 @@
 
 <!-- Contenedor Comentarios -->
 <div class="container my-5 " id="contactanos">
-    <h4> Dinos tu opinión! &nbsp;</h4>
+    <h4> ¡Dinos tu opinión! &nbsp;</h4>
     <hr color="gray">
+    <p style="text-align: justify;">
+        Si has utilizado alguno de nuestros productos y deseas darnos tu opinión, recomendación o si necesitas soporte, o bien, si deseas
+        obtener más información sobre nuestros productos, a continuación encontrarás un formulario disponible
+        para que puedas proporcionarnos tu número de teléfono o correo electrónico y nosotros nos pondremos en contacto contigo lo antes posible.
+    </p>
     <form action="{{route('comentarioCreate')}}" method="POST">
         @csrf
         @method('POST')
             <div class="row">
                 <div class="col">
-                    <b><label for="">Nombre</label></b>
-                    <input type="text" class="form-control" placeholder="Requerido" name="nombre" autocomplete="off" required>
+                    <b><label for="">Nombre*</label></b>
+                    <input type="text" class="form-control" placeholder="" name="nombre_cliente" autocomplete="off" required>
                 </div>
 
                 <div class="col">
                     <b><label for="">Teléfono</label></b>
-                    <input type="number" class="form-control" placeholder="Opcional" name="telefono" autocomplete="off">
+                    <input type="number" class="form-control" placeholder="(Opcional)" name="telefono" autocomplete="off">
                 </div>
             </div>
         <div class="row mt-2">
             <div class="col">
                 <b><label for="">Correo</label></b>
-                <input type="email" class="form-control" placeholder="Opcional" name="correo" autocomplete="off">
+                <input type="email" class="form-control" placeholder="(Opcional)" name="correo" autocomplete="off">
             </div>
         </div>
 
             <div class="form-group mt-2">
-                <b><label for="exampleFormControlTextarea1">Comentario</label></b>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Requerido" name="comentario" autocomplete="off" required></textarea>
+                <b><label for="exampleFormControlTextarea1">Comentario*</label></b>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="" name="comentario" autocomplete="off" required></textarea>
             </div>
-        <center><button type="submit"  class="btn-lg my-3" style="background-color: aquamarine; border: none;" id="btnGuardar" name="accion" value="Guardar">Enviar</button></center>
+        <center><button type="submit"  class="btn-lg my-3" id="btnEnviar" name="btnEnviar">Enviar</button></center>
     </form>
 </div>
 
 <div id="copyRight">
     <center>© Copyright ELECTRÓNICOS S.A.</center>
 </div>
+
+@include('sweetalert::alert')
 </body>
 </html>

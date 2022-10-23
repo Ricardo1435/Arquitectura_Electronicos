@@ -43,10 +43,10 @@
 <div id="contenedorManuales">
 <div class="manual" id="manuales">
     <ul>
-        <li><img src="img/spanish.png" class="ft"> </li>
-        <li><img src="img/ingles.png" class="ft"></li>
-        <li><img src="img/ruso.png" class="ft"></li>
-        <li><img src="img/japones.png" class="ft"></li>
+        <li><img src="img/spanish.png" class="ft" title="Manual en Español"> </li>
+        <li><img src="img/ingles.png" class="ft" title="Manual en Inglés"></li>
+        <li><img src="img/ruso.png" class="ft" title="Manual en Ruso"></li>
+        <li><img src="img/japones.png" class="ft" title="Manual en Japonés"></li>
     </ul>
 </div>
 </div>

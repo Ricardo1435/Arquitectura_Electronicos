@@ -26,9 +26,6 @@
             <li class="nav-item active">
                 <a class="nav-link" href="{{route('electrosen')}}"> <i class="fas fa-car"></i> ELECTROSEN <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#info">Información <span class="sr-only">(current)</span></a>
-            </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Más

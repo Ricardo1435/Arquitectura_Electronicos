@@ -209,6 +209,21 @@ hr {
     height: 250px;
 }
 
+#btnEnviar{
+    background: aquamarine;
+    color: black;
+    height: 60px;
+    border: none;
+    width: 140px;
+    text-align:center;
+}
+
+#btnEnviar:hover{
+    background: black;
+    color: white;
+
+}
+
 #copyRight {
     text-align: center;
     background-color: black;

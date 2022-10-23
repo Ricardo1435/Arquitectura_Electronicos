@@ -10,5 +10,5 @@ class Comentario extends Model
     use HasFactory;
     protected $table = "comentario";
     protected $guarded = ['id'];
-    protected $fillable = ['nombre', 'telefono', 'correo', 'comentario', 'fecha'];
+    protected $fillable = ['nombre_cliente', 'telefono', 'correo', 'comentario', 'fecha'];
 }

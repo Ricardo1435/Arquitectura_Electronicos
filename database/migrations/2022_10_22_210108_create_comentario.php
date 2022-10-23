@@ -15,7 +15,7 @@ class CreateComentario extends Migration
     {
         Schema::create('comentario', function (Blueprint $table) {
             $table->id();
-            $table->string('nombre',100);
+            $table->string('nombre_cliente',100);
             $table->string('telefono',25)->nullable();
             $table->string('correo',75)->nullable();
             $table->text('comentario');
