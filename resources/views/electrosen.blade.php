@@ -95,7 +95,7 @@
 <div class="container my-5" id="info">
     <h4>ELECTROSEN &nbsp;<i class="fas fa-car"></i></h4>
     <hr color="gray">
-    <img src="img/electrosen-terminado.jpg" class="ft2" width="200" height="200"/>
+    <img src="img/electrosen.jpg" class="ft2" width="200" height="200"/>
     <p>
         ELECTROSEN es un dispositivo cuyo nombre significa "Sensor Electrónico", debido a que en su estructura
         integra un sensor de proximidad que permite identificar a que distancia se encuentra un objeto.
@@ -111,9 +111,9 @@
     <hr color="gray">
 
     <ul>
-        <li><img src="img/electrosen1.jpg" class="ft" title="ELECTROSEN en proceso"> </li>
-        <li><img src="img/electrosen2.jpg" class="ft" title="ELECTROSEN en proceso"></li>
-        <li><img src="img/electrosen3.jpg" class="ft" title="ELECTROSEN en proceso"></li>
+        <li><img src="img/electrosen1.jpg" class="ft" title="Prototipo ELECTROSEN"> </li>
+        <li><img src="img/electrosen2.jpg" class="ft" title="Prototipo ELECTROSEN"></li>
+        <li><img src="img/electrosen3.jpg" class="ft" title="Prototipo ELECTROSEN"></li>
         <li><img src="img/electrosen4.jpg" class="ft" title="ELECTROSEN Finalizado"></li>
         <li><img src="img/electrosen5.jpg" class="ft" title="ELECTROSEN Finalizado"></li>
 
@@ -124,13 +124,14 @@
 <div class="container videos_electrosen" id="videos">
     <h4>Videos</h4>
     <hr color="gray">
-{{--    <ul>--}}
-{{--        <li>--}}
-{{--            <iframe src="https://www.youtube.com/embed/aAkLoiCxUc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>--}}
-{{--        </li>--}}
-{{--        <li>--}}
-{{--            <iframe width="560" height="315" src="https://www.youtube.com/embed/YRWiBnKP_3A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                </li>--}}
-{{--    </ul>--}}
+    <ul>
+        <li>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7qNWHZGWzPE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </li>
+        <li>
+            <iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </li>
+    </ul>
 
 </div>
 <div id="copyRight">

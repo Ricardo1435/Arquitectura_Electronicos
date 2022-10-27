@@ -132,7 +132,7 @@
             <a href="https://www.facebook.com/Electr%C3%B3nicos-SA-107789894742777/" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a>
             &nbsp;&nbsp;&nbsp;<a href="https://wa.me/50240932468/?text=ESTOY INTERESADO EN EL ELECTROSEN" title="Whatsapp"><i class="fab fa-whatsapp fa-2x"></i></a>
             &nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/elecgt/" title="Instagram"><i class="fab fa-instagram fa-2x"></i></a>
-            &nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/" title="YouTube"><i class="fab fa-youtube fa-2x"></i></a>
+            &nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/channel/UC5K40GhM7YV1Y3N63LcTtfg" title="YouTube"><i class="fab fa-youtube fa-2x"></i></a>
         </li>
     </ul>
 </div>
