@@ -114,9 +114,8 @@
         <li><img src="img/electrosen1.jpg" class="ft" title="Prototipo ELECTROSEN"> </li>
         <li><img src="img/electrosen2.jpg" class="ft" title="Prototipo ELECTROSEN"></li>
         <li><img src="img/electrosen3.jpg" class="ft" title="Prototipo ELECTROSEN"></li>
-        <li><img src="img/electrosen4.jpg" class="ft" title="ELECTROSEN Finalizado"></li>
         <li><img src="img/electrosen5.jpg" class="ft" title="ELECTROSEN Finalizado"></li>
-
+        <li><img src="img/electrosen6.jpg" class="ft" title="ELECTROSEN Finalizado"></li>
     </ul>
 </div>
 
@@ -126,10 +125,13 @@
     <hr color="gray">
     <ul>
         <li>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/7qNWHZGWzPE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7qNWHZGWzPE" title="Prototipo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </li>
         <li>
-            <iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8O4Kph7va9k" title="ELECTROSEN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </li>
+        <li>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nSrgwCeLCcA" title="Pruebas ELECTROSEN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </li>
     </ul>
 
