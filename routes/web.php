@@ -17,12 +17,13 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
+Route::get('/dar', function (){
+   return view('dar');
+})->name('dar');
+
 Route::get('/electrosen', function (){
-   return view('electrosen');
+    return view('electrosen');
 })->name('electrosen');
 
-Route::get('/manuales', function (){
-    return view('manuales');
-})->name('manuales');
 
 Route::post('/home', [\App\Http\Controllers\ComentarioController::class, 'create'])->name('comentarioCreate');

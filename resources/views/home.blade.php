@@ -17,26 +17,34 @@
 <body>
 <!-- Barra de Navegacion -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
-    <a class="navbar-brand" href="{{route('home')}}"> <i class="fas fa-microchip"></i> ELECTRONICOS S.A.</a>
+    <a class="navbar-brand" href="{{route('home')}}"> <i class="fas fa-microchip"></i> ELECTRÓNICOS S.A.</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#contactanos">Contáctanos <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/#contactanos">Contáctanos <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Productos
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="{{route('electrosen')}}"> <i class="fas fa-car"></i> ELECTROSEN   </a>
+                    <a class="dropdown-item" href="{{route('dar')}}"> <i class="fa fa-shield" aria-hidden="true"></i> DAR</a>
+                    <a class="dropdown-item" href="{{route('electrosen')}}"> <i class="fas fa-car"></i> ELECTROSEN</a>
                 </div>
+            </li>
+        </ul>
+        <!-- Right Side Of Navbar -->
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">{{ __('Login') }}</a>
             </li>
         </ul>
     </div>
 </nav>
+
 <div class="content container" id="contenedor">
     <!-- Carrusel -->
     <div id="carouselImage" class="carousel slide my-4 mx-5" data-ride="carousel" >
@@ -109,8 +117,8 @@
         el cual se basaba en la realización de un producto.<br><br>
         Los integrantes de este grupo concordaron en crear una empresa que se dedicara a
         la venta de dispositivos, componentes y accesorios electrónicos. <br>
-        Gracias a Dios y a la perseverancia de estos jóvenes se logró llevar a cabo el proyecto,
-        el cual más tarde se convirtió en una realidad.
+        Gracias a Dios y a la perseverancia de estos jóvenes se logró llevar a cabo el proyecto y con el paso del tiempo
+        han logrado realizar muchos más.
         <br>
     </p>
 </div>
@@ -149,17 +157,17 @@
     <form action="{{route('comentarioCreate')}}" method="POST">
         @csrf
         @method('POST')
-            <div class="row">
-                <div class="col">
-                    <b><label for="">Nombre*</label></b>
-                    <input type="text" class="form-control" placeholder="" name="nombre_cliente" autocomplete="off" required>
-                </div>
-
-                <div class="col">
-                    <b><label for="">Teléfono</label></b>
-                    <input type="number" class="form-control" placeholder="(Opcional)" name="telefono" autocomplete="off">
-                </div>
+        <div class="row">
+            <div class="col">
+                <b><label for="">Nombre*</label></b>
+                <input type="text" class="form-control" placeholder="" name="nombre_cliente" autocomplete="off" required>
             </div>
+
+            <div class="col">
+                <b><label for="">Teléfono</label></b>
+                <input type="number" class="form-control" placeholder="(Opcional)" name="telefono" autocomplete="off">
+            </div>
+        </div>
         <div class="row mt-2">
             <div class="col">
                 <b><label for="">Correo</label></b>
@@ -167,10 +175,10 @@
             </div>
         </div>
 
-            <div class="form-group mt-2">
-                <b><label for="exampleFormControlTextarea1">Comentario*</label></b>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="" name="comentario" autocomplete="off" required></textarea>
-            </div>
+        <div class="form-group mt-2">
+            <b><label for="exampleFormControlTextarea1">Comentario*</label></b>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="" name="comentario" autocomplete="off" required></textarea>
+        </div>
         <center><button type="submit"  class="btn-lg my-3" id="btnEnviar" name="btnEnviar">Enviar</button></center>
     </form>
 </div>
